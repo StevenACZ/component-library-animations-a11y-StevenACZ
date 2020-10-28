@@ -1,0 +1,10 @@
+.quote__container {
+  width: 640px;
+  border: 1px solid #E7E7E7;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.quote__b {
+  margin-top: 16px;
+}

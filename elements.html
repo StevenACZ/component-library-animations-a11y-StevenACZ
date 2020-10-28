@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Component Library</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./src/css/style.css">
+  
+  <!-- Editor styles -->
+  <link rel="stylesheet" href="./src/css/themes/theme.css">
+</head>
+<body>
+  <header class="header">
+    <img class="header__img" src="./src/img/logo.png" alt="">
+  </header>
+  <main class="main">
+
+    <!-- Aside -->
+    <aside class="aside">
+      <a href="./index.html">
+        <span>Typography</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a class="active" href="./elements.html">
+        <span>Elements</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a href="./blocks.html">
+        <span>Blocks</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a href="./layouts.html">
+        <span>Layouts</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a href="./page1.html">
+        <span>Example 1</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+    </aside>
+
+    <!-- Elements -->
+    <section class="section">
+      <h2 class="title">Elements</h2>
+
+      <!-- Base Button -->
+      <section>
+        <p class="subtitle">Base Button</p>
+
+        <button class="button button--icon mb-3">
+          <img src="./src/img/icons/dark-download-icon.png" alt="">
+          <span>Base Button</span>
+        </button>
+
+      <!-- Editor -->
+<pre>
+<code data-language="html"><button class="button button--icon">
+  <img src="./src/img/icons/dark-download-icon.png" alt="">
+  <span>Base Button</span>
+</button></code>
+</pre>
+      </section>
+
+      <!-- Button Types -->
+      <section>
+        <p class="subtitle">Button Types</p>
+
+        <div class="flex mb-3">
+          <button class="button button--primary mr-2">Primary</button>
+          <button class="button button--secundary mr-2">Secundary</button>
+          <button class="button button--success mr-2">Success</button>
+          <button class="button button--warning mr-2">Warning</button>
+          <button class="button button--danger mr-2">Danger</button>
+          <button class="button button--transparent">Transparent</button>
+        </div>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><div class="flex">
+  <!-- Button primary -->
+  <button class="button button--primary mr-2">Primary</button>
+  
+  <!-- Button Secundary -->
+  <button class="button button--secundary mr-2">Secundary</button>
+  
+  <!-- Button Success -->
+  <button class="button button--success mr-2">Success</button>
+  
+  <!-- Button Warning -->
+  <button class="button button--warning mr-2">Warning</button>
+  
+  <!-- Button Danger -->
+  <button class="button button--danger mr-2">Danger</button>
+  
+  <!-- Button Transparent -->
+  <button class="button button--transparent">Transparent</button>
+</div></code>
+</pre>
+      </section>
+
+      <!-- Button Styles -->
+      <section>
+        <p class="subtitle">Button Styles</p>
+
+        <div class="flex mb-3">
+          <button class="button button--primary mr-2">Primary</button>
+          <button class="button button--icon button--primary mr-2">
+            <img src="./src/img/icons/white-download-icon.png" alt="">
+            <span>With Icon</span>
+          </button>
+          <button class="button button--icon button--primary mr-2">
+            <img src="./src/img/icons/white-download-icon.png" alt="">
+          </button>
+        </div>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><div class="flex">
+  <!-- Button Primary -->
+  <button class="button button--primary mr-2">Primary</button>
+  
+  <!-- Button With Icon -->
+  <button class="button button--icon button--primary mr-2">
+    <img src="./src/img/icons/white-download-icon.png" alt="">
+    <span>With Icon</span>
+  </button>
+
+  <!-- Button Icon -->
+  <button class="button button--icon button--primary mr-2">
+    <img src="./src/img/icons/white-download-icon.png" alt="">
+  </button>
+</div></code>
+</pre>
+      </section>
+
+      <!-- Button Sizes -->
+      <section>
+        <p class="subtitle">Button Sizes</p>
+
+        <div class="flex mb-3">
+          <button class="button button--primary mr-2">Primary</button>
+          <button class="button button--primary button--small mr-2">Small</button>
+          <button class="button button--primary button--large">Large</button>
+        </div>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><div class="flex">
+  <!-- Button normal size -->
+  <button class="button button--primary mr-2">Primary</button>
+  
+  <!-- Button small size -->
+  <button class="button button--primary button--small mr-2">Small</button>
+  
+  <!-- Button large size -->
+  <button class="button button--primary button--large">Large</button>
+</div></code>
+</pre>
+      </section>
+
+      <!-- Images -->
+      <section>
+        <p class="subtitle">Images</p>
+
+        <div class="flex mb-3">
+          <div class="image mr-5">
+            <span>100x100</span>
+          </div>
+          <div class="image image--circle mr-5">
+            <span>100x100</span>
+          </div>
+          <div class="image image--shadow mr-5">
+            <span>100x100</span>
+          </div>
+          <div class="image image--shadow image--circle">
+            <span>100x100</span>
+          </div>
+        </div>
+
+      <!-- Editor -->
+
+<pre>
+<code data-language="html"><div class="flex">
+  <!-- Square -->
+  <div class="image mr-5">
+    <span>100x100</span>
+  </div>
+
+  <!-- Circle -->
+  <div class="image image--circle mr-5">
+    <span>100x100</span>
+  </div>
+
+  <!-- Square shadow -->
+  <div class="image image--shadow mr-5">
+    <span>100x100</span>
+  </div>
+
+  <!-- Circle shadow -->
+  <div class="image image--shadow image--circle">
+    <span>100x100</span>
+  </div>
+</div></code>
+</pre>
+      </section>
+
+      <!-- Tabs -->
+      <section>
+        <p class="subtitle">Tabs</p>
+
+        <ul class="list__tabs mb-3">
+          <li class="item">Default</li>
+          <li class="item item--hover">Hover</li>
+          <li class="item item--active">Active</li>
+        </ul>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><ul class="list__tabs">
+  <!-- Default -->
+  <li class="item">Default</li>
+
+  <!-- Hover -->
+  <li class="item item--hover">Hover</li>
+
+  <!-- Active -->
+  <li class="item item--active">Active</li>
+</ul></code>
+</pre>
+      </section>
+
+      <!-- List Items -->
+      <section>
+        <p class="subtitle">List Items</p>
+
+        <ul class="list mb-3">
+          <li class="item">List Item</li>
+          <li class="item item--hover">List Item Hover</li>
+          <li class="item item--active">List Item Active</li>
+        </ul>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><ul class="list">
+  <!-- List item -->
+  <li class="item">List Item</li>
+  
+  <!-- List item hover -->
+  <li class="item item--hover">List Item Hover</li>
+  
+  <!-- List item active -->
+  <li class="item item--active">List Item Active</li>
+</ul></code>
+</pre>
+      </section>
+
+      <!-- Input:Checkbox -->
+      <section>
+        <p class="subtitle">Input:Checkbox</p>
+        
+        <div class="flex mb-3">
+          <label class="form-check mr-3">
+            <input type="checkbox" checked>
+            <span>Checked</span>
+          </label>
+          <label class="form-check">
+            <input type="checkbox">
+            <span>Unchecked</span>
+          </label>
+        </div>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><div class="flex">
+  <!-- Checked -->
+  <label class="form-check mr-3">
+    <input type="checkbox" checked>
+    <span>Checked</span>
+  </label>
+
+  <!-- Unchecked -->
+  <label class="form-check">
+    <input type="checkbox">
+    <span>Unchecked</span>
+  </label>
+</div></code>
+</pre>
+      </section>
+
+      <!-- Checkbox Groups -->
+      <section>
+        <p class="subtitle">Checkbox Groups</p>
+
+        <p class="mb-3">Choose horizontal options:</p>
+        <div class="flex">
+          <label class="form-check mr-3">
+            <input type="checkbox" checked>
+            <span>Horizontal 1</span>
+          </label>
+          <label class="form-check mr-3">
+            <input type="checkbox">
+            <span>Horizontal 2</span>
+          </label>
+          <label class="form-check">
+            <input type="checkbox">
+            <span>Horizontal 3</span>
+          </label>
+        </div>
+        
+        <p class="mb-3 mt-3"> <span class="text-red">*</span> Choose vertical options:</p>
+        <div class="flex flex-col mb-3">
+          <label class="form-check mb-3">
+            <input type="checkbox" checked>
+            <span>Horizontal 1</span>
+          </label>
+          <label class="form-check mb-3">
+            <input type="checkbox">
+            <span>Horizontal 2</span>
+          </label>
+          <label class="form-check">
+            <input type="checkbox">
+            <span>Horizontal 3</span>
+          </label>
+        </div>
+        <p class="text-red mb-3">Choose at least 1 option</p>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><!-- Horizontal -->
+<div class="flex">
+  <label class="form-check mr-3">
+    <input type="checkbox" checked>
+    <span>Horizontal 1</span>
+  </label>
+
+  <label class="form-check mr-3">
+    <input type="checkbox">
+    <span>Horizontal 2</span>
+  </label>
+  
+  <label class="form-check">
+    <input type="checkbox">
+    <span>Horizontal 3</span>
+  </label>
+</div>
+
+<!-- Vertical -->
+<div class="flex flex-col mb-3">
+  <label class="form-check mb-3">
+    <input type="checkbox" checked>
+    <span>Horizontal 1</span>
+  </label>
+
+  <label class="form-check mb-3">
+    <input type="checkbox">
+    <span>Horizontal 2</span>
+  </label>
+  
+  <label class="form-check">
+    <input type="checkbox">
+    <span>Horizontal 3</span>
+  </label>
+</div></code>
+</pre>
+      </section>
+
+      <!-- Input:Radio Buttons -->
+      <section class="mb-3">
+        <p class="subtitle">Input:Radio Buttons</p>
+
+        <div class="flex mb-3">
+          <label class="form-radio mr-3">
+            <input type="radio" name="group1" checked>
+            <span>Checked</span>
+          </label>
+          <label class="form-radio">
+            <input type="radio" name="group2">
+            <span>Unchecked</span>
+          </label>
+        </div>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><div class="flex mb-3">
+  <!-- Checked -->
+  <label class="form-radio mr-3">
+    <input type="radio" name="group1" checked>
+    <span>Checked</span>
+  </label>
+
+  <!-- Unchecked -->
+  <label class="form-radio">
+    <input type="radio" name="group2">
+    <span>Unchecked</span>
+  </label>
+</div></code>
+</pre>
+      </section>
+
+      <!-- Radio Button Groups -->
+      <section>
+        <p class="subtitle">Radio Button Groups</p>
+
+        <p class="mb-3">Choose horizontal options:</p>
+        <div class="flex">
+          <label class="form-radio mr-3">
+            <input type="radio" name="group1">
+            <span>Option 1</span>
+          </label>
+          <label class="form-radio mr-3">
+            <input type="radio" name="group1">
+            <span>Option 2</span>
+          </label>
+          <label class="form-radio">
+            <input type="radio" name="group1">
+            <span>Option 3</span>
+          </label>
+        </div>
+  
+        <p class="normal mb-3 mt-3"> <span class="code--red">*</span> Choose vertical options:</p>
+        <div class="flex flex-col mb-3">
+          <label class="form-radio mb-3">
+            <input type="radio" name="group1">
+            <span>Option 1</span>
+          </label>
+          <label class="form-radio mb-3">
+            <input type="radio" name="group1">
+            <span>Option 2</span>
+          </label>
+          <label class="form-radio">
+            <input type="radio" name="group1">
+            <span>Option 3</span>
+          </label>
+        </div>
+        <p class="text-red mb-3">Choose at least 1 option</p>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><!-- Horizontal -->
+<div class="flex">
+  <label class="form-radio mr-3">
+    <input type="radio" name="group1">
+    <span>Option 1</span>
+  </label>
+
+  <label class="form-radio mr-3">
+    <input type="radio" name="group1">
+    <span>Option 2</span>
+  </label>
+
+  <label class="form-radio">
+    <input type="radio" name="group1">
+    <span>Option 3</span>
+  </label>
+</div>
+
+<!-- Vertical -->
+<div class="flex flex-col mb-3">
+  <label class="form-radio mb-3">
+    <input type="radio" name="group1">
+    <span>Option 1</span>
+  </label>
+
+  <label class="form-radio mb-3">
+    <input type="radio" name="group1">
+    <span>Option 2</span>
+  </label>
+
+  <label class="form-radio">
+    <input type="radio" name="group1">
+    <span>Option 3</span>
+  </label>
+</div></code>
+</pre>
+        
+      </section>
+
+      <!-- Input:text -->
+      <section class="mb-3">
+        <p class="subtitle">Input:Text</p>
+
+        <div class="flex flex-col mb-3">
+          <input type="text" class="mb-2" placeholder="Placeholder">
+          <input type="text" class="mb-2 focus" value="Focus state">
+          <input type="text" class="mb-2" value="Filled">
+          <input type="text" placeholder="Error" required>
+        </div>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><div class="flex flex-col">
+  <!-- Placeholder -->
+  <input type="text" class="mb-2" placeholder="Placeholder">
+  
+  <!-- Focus state -->
+  <input type="text" class="mb-2 focus" value="Focus state">
+  
+  <!-- Filled -->
+  <input type="text" class="mb-2" value="Filled">
+  
+  <!-- Error -->
+  <input type="text" placeholder="Error" required>
+</div></code>
+</pre>
+      </section>
+
+      <!-- Input:dropdown -->
+      <section>
+        <p class="subtitle">Input:dropdown</p>
+
+        <div class="flex flex-col mb-3">
+          <select class="dropdown mb-3">
+            <option selected>Default Option</option>
+            <option>Example 1</option>
+            <option>Example 2</option>
+            <option>Example 3</option>
+          </select>
+          
+          <select class="dropdown focus">
+            <option selected>Focus state</option>
+            <option>Example 1</option>
+            <option>Example 2</option>
+            <option>Example 3</option>
+          </select>
+        </div>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><div class="flex flex-col">
+  <!-- Normal -->
+  <select class="dropdown mb-3">
+    <option selected>Default Option</option>
+    <option>Example 1</option>
+    <option>Example 2</option>
+    <option>Example 3</option>
+  </select>
+  
+  <!-- Focus -->
+  <select class="dropdown focus">
+    <option selected>Focus state</option>
+    <option>Example 1</option>
+    <option>Example 2</option>
+    <option>Example 3</option>
+  </select>
+</div></code>
+</pre>
+      </section>
+
+      <!-- Input Group -->
+      <section>
+        <p class="subtitle">Input Group</p>
+
+        <div class="flex flex-col mb-3">
+          <div class="flex flex-col mb-3">
+            <label for="test">Label</label>
+            <input type="text" class="mt-1 mb-1" placeholder="Placeholder" id="test">
+            <span class="text-sm">With the text</span>
+          </div>
+          
+          <div class="flex items-center mb-3">
+            <label for="test1">Inline</label>
+            <input type="text" class="ml-2" placeholder="Placeholder" id="test1">
+          </div>
+          
+          <div class="flex flex-col">
+            <label for="test2"> <span class="text-red">*</span> Label</label>
+            <input type="text" class="mt-1 mb-1" placeholder="Error" id="test2" required>
+            <span class="text-sm text-red">Error message</span>
+          </div>
+        </div>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><div class="flex flex-col">
+  <!-- Label with the text -->
+  <div class="flex flex-col mb-3">
+    <label for="test">Label</label>
+    <input type="text" class="mt-1 mb-1" placeholder="Placeholder" id="test">
+    <span class="text-sm">With the text</span>
+  </div>
+  
+  <!-- Label inline -->
+  <div class="flex items-center mb-3">
+    <label for="test1">Inline</label>
+    <input type="text" class="ml-2" placeholder="Placeholder" id="test1">
+  </div>
+  
+  <!-- Label error message -->
+  <div class="flex flex-col">
+    <label for="test2"> <span class="text-red">*</span> Label</label>
+    <input type="text" class="mt-1 mb-1" placeholder="Error" id="test2" required>
+    <span class="text-sm text-red">Error message</span>
+  </div>
+</div></code>
+</pre>
+      </section>
+
+      <!-- Table cells -->
+      <section>
+        <p class="subtitle">Table cells</p>
+        
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Table Head</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Table Cell</td>
+            </tr>
+            <tr>
+              <td>Striped Cell</td>
+            </tr>
+          </tbody>
+        </table>
+          
+        <!-- Editor -->
+<pre class="mt-3">
+<code data-language="html"><table class="table mb-3">
+  <!-- Table head -->
+  <thead>
+    <tr>
+      <th>Table Head</th>
+    </tr>
+  </thead>
+
+  <!-- Table body -->
+  <tbody>
+    <!-- Table cell -->
+    <tr>
+      <td>Table Cell</td>
+    </tr>
+
+    <!-- Striped cell -->
+    <tr>
+      <td>Striped Cell</td>
+    </tr>
+  </tbody>
+</table></code>
+</pre>
+      </section>
+    </section>
+    
+  </main>
+
+  <!-- Editor js -->
+  <script src="./src/js/rainbow-custom.min.js"></script>
+</body>
+</html>

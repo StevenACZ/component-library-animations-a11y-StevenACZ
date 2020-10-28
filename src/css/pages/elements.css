@@ -1,0 +1,19 @@
+/* Buttons container */
+.buttons__container {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.buttons__container > button {
+  margin-right: 8px;
+}
+
+/* Images container */
+.images__container {
+  display: inline-flex;
+  align-items: flex-end;
+  margin-bottom: 16px;
+}
+.images__container > div {
+  margin-right: 32px;
+}

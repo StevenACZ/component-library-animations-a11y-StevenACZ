@@ -1,0 +1,52 @@
+/* Color container */
+.colors__container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin-top: 5px;
+}
+
+.colors__item {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+/* Circle */
+.circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  margin-right: 8px;
+}
+.circle--blue {
+  background-color: var(--color--blue);
+}
+.circle--green {
+  background-color: var(--color--green);;
+}
+.circle--yellow {
+  background-color: var(--color--yellow);;
+}
+.circle--red {
+  background-color: var(--color--red);;
+}
+.circle--midnight {
+  background-color: var(--color--midnight);;
+}
+.circle--light {
+  background-color: var(--color--light);;
+}
+.circle--white {
+  background-color: var(--color--white);;
+  border: 1px solid #D9D9D9;
+}
+.circle--gray {
+  background-color: var(--color--gray);;
+}
+.circle--black {
+  background-color: var(--color--black);;
+}

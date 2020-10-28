@@ -1,0 +1,29 @@
+.editor {
+  max-width: 100%;
+  background-color: #F5F5F5;
+  padding: 20px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  font-family: 'Fira Code', monospace;
+}
+
+.editor > p {
+  margin-bottom: 5px;
+}
+
+.code--blue {
+  color: #277EDD;
+}
+.code--red {
+  color: #D42F3C;
+}
+.code--orange {
+  color: #D46B08;
+}
+.code--gray {
+  color: #595959;
+}
+.code--green {
+  color: #61a471;
+}

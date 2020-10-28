@@ -1,0 +1,45 @@
+/* Input:Radio Buttons */
+.form-radio {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+input[type=radio] + span {
+  display: block;
+  cursor: pointer;
+}
+input[type=radio] {
+  display: none;
+}
+input[type=radio] + span::before {
+  content: "\2714";
+  border: 1px solid var(--color--gray);
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  font-size: 10px;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+}
+input[type=radio] + span:active::before {
+  transform: scale(0);
+}
+input[type=radio]:checked + span::before {
+  background-color: var(--color--blue);
+  color: var(--color--white);
+  border-color: var(--color--blue);
+}
+input[type=radio]:disabled + span::before {
+  transform: scale(1);
+  border-color: var(--color--gray);
+}
+input[type=radio]:checked:disabled + span::before {
+  transform: scale(1);
+  background-color: #bfb;
+  border-color: #bfb;
+}

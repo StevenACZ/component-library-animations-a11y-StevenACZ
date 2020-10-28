@@ -1,0 +1,21 @@
+/* List Items */
+.list > .item {
+  font-family: 'Piazzolla', serif;
+  margin-right: 16px;
+  height: 40px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: var(--color--light-1);
+  cursor: pointer;
+}
+.list > .item--hover:hover {
+  background-color: var(--color--blue);
+  color: var(--color--white);
+}
+.list > .item--active {
+  background-color: var(--color--blue);
+  color: var(--color--white);
+}

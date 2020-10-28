@@ -1,0 +1,22 @@
+/* Input:Text */
+input[type=text], .dropdown {
+  height: 40px;
+  min-width: 256px;
+  max-width: 256px;
+  padding: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid var(--color--gray);
+  border-radius: 8px;
+  outline: none;
+}
+
+input[type=text]:focus, .dropdown:focus, .focus {
+  border-color: var(--color--blue);
+  box-shadow: 0px 0px 6px var(--color--blue);
+}
+
+input[type=text]:invalid {
+  border: 1px solid var(--color--red);
+  box-shadow: 0px 0px 0px transparent;
+}

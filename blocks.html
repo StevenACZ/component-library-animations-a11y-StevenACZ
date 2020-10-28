@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Component Library</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./src/css/style.css">
+  
+  <!-- Editor styles -->
+  <link rel="stylesheet" href="./src/css/themes/theme.css">
+</head>
+<body>
+  <header class="header">
+    <img class="header__img" src="./src/img/logo.png" alt="">
+  </header>
+  <main class="main">
+
+    <!-- Aside -->
+    <aside class="aside">
+      <a href="./index.html">
+        <span>Typography</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a href="./elements.html">
+        <span>Elements</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a class="active" href="./blocks.html">
+        <span>Blocks</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a href="./layouts.html">
+        <span>Layouts</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a href="./page1.html">
+        <span>Example 1</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+    </aside>
+
+    <!-- Blocks -->
+    <section class="section">
+      <h2 class="title">Blocks</h2>
+
+      <!-- Banner -->
+      <section>
+        <p class="subtitle">Banner</p>
+
+        <section class="banner mb-3">
+          <div class="banner__hero">
+            <p class="banner__title">Full Stack Web Development</p>
+            <p class="banner__subtitle">
+              Become a better version of yourself in only 6 months.
+            </p>
+          </div>
+          
+          <button class="button button--success">Apply now</button>
+        </section>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><section class="banner">
+  <div class="banner__hero">
+    <p class="banner__title">Full Stack Web Development</p>
+    <p class="banner__subtitle">
+      Become a better version of yourself in only 6 months.
+    </p>
+  </div>
+  
+  <button class="button button--success">Apply now</button>
+</section></code>
+</pre>
+
+      </section>
+
+      <!-- Tab Group -->
+      <section>
+        <p class="subtitle">Tab Group</p>
+
+        <ul class="list__tab-group mb-3">
+          <li class="item">Tab</li>
+          <li class="item">Tab</li>
+          <li class="item item--active">Active Tab</li>
+          <li class="item">Tab</li>
+          <li class="item">Tab</li>
+        </ul>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><ul class="list__tab-group">
+  <li class="item">Tab</li>
+  <li class="item">Tab</li>
+  <li class="item item--active">Active Tab</li>
+  <li class="item">Tab</li>
+  <li class="item">Tab</li>
+</ul></code>
+</pre>
+      </section>
+
+      <!-- Vertical List -->
+      <section>
+        <p class="subtitle">Vertical List</p>
+
+        <ul class="list__vertical mb-3">
+          <li class="item">Item</li>
+          <li class="item">Item</li>
+          <li class="item item--active">Item</li>
+          <li class="item">Item</li>
+          <li class="item">Item</li>
+        </ul>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><ul class="list__vertical">
+  <li class="item">Item</li>
+  <li class="item">Item</li>
+  <li class="item item--active">Item</li>
+  <li class="item">Item</li>
+  <li class="item">Item</li>
+</ul></code>
+</pre>
+      </section>
+
+      <!-- Card -->
+      <section>
+        <p class="subtitle">Card</p>
+
+        <div class="card mb-3">
+          <img class="card-img-top" src="./src/img/banner.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed ultrices erat, non accumsan
+              ex. Suspendisse potenti. Aenean venenatis risus vitae arcu ultrices, id convallis turpis sodales.
+            </p>
+            <button class="button button--success">Button</button>
+          </div>
+        </div>
+
+      <!-- Editor -->
+<pre>
+<code data-language="html"><div class="card">
+  <img class="card-img-top" src="./src/img/banner.png" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed ultrices erat,
+      non accumsan ex. Suspendisse potenti. Aenean venenatis risus vitae arcu ultrices, 
+      id convallis turpis sodales.
+    </p>
+    <button class="button button--success">Button</button>
+  </div>
+</div></code>
+</pre>
+      </section>
+
+      <!-- Form -->
+      <section>
+        <p class="subtitle">Form</p>
+
+        <div class="flex flex-col update-profile mb-3">
+          <h2 class="mb-3">Update your profile</h2>
+          <div class="flex flex-col mb-3">
+            <label for="name"> <span class="text-red">*</span> Name</label>
+            <input type="text" class="mt-1" placeholder="Placeholder" id="name" required>
+          </div>
+          <div class="flex flex-col mb-3">
+            <label for="email"> <span class="text-red">*</span> Email</label>
+            <input type="text" class="mt-1" placeholder="Placeholder" id="email" required>
+          </div>
+          <p class="mb-3">Gender</p>
+          <div class="flex mb-3">
+            <label class="form-radio mr-3">
+              <input type="radio" name="gender">
+              <span>Female</span>
+            </label>
+            <label class="form-radio mr-3">
+              <input type="radio" name="gender">
+              <span>Male</span>
+            </label>
+            <label class="form-radio">
+              <input type="radio" name="gender">
+              <span>Other</span>
+            </label>
+          </div>
+          <div class="flex flex-col">
+            <label class="mb-1" for="country">Country</label>
+            <select class="dropdown mb-3" id="country">
+              <option selected>Select a country</option>
+              <option>Perú</option>
+              <option>Chile</option>
+              <option>Bolivia</option>
+            </select>
+          </div>
+          <p class="mb-3">Favorite languages</p>
+          <div class="flex mb-3">
+            <label class="form-check mr-3">
+              <input type="checkbox">
+              <span>Ruby</span>
+            </label>
+            <label class="form-check mr-3">
+              <input type="checkbox">
+              <span>JS</span>
+            </label>
+            <label class="form-check">
+              <input type="checkbox">
+              <span>Python</span>
+            </label>
+          </div>
+          <div class="flex mt-3">
+            <button class="button button--primary mr-3">Submit</button>
+            <button class="button button--secundary ml-3">Cancel</button>
+          </div>
+        </div>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><div class="flex flex-col update-profile">
+  <h2 class="mb-3">Update your profile</h2>
+  
+  <!-- Name -->
+  <div class="flex flex-col mb-3">
+    <label for="name"> <span class="text-red">*</span> Name</label>
+    <input type="text" class="mt-1" placeholder="Placeholder" id="name" required>
+  </div>
+
+  <!-- Email -->
+  <div class="flex flex-col mb-3">
+    <label for="email"> <span class="text-red">*</span> Email</label>
+    <input type="text" class="mt-1" placeholder="Placeholder" id="email" required>
+  </div>
+
+  <!-- Gender -->
+  <p class="mb-3">Gender</p>
+  <div class="flex mb-3">
+    <label class="form-radio mr-3">
+      <input type="radio" name="gender">
+      <span>Female</span>
+    </label>
+
+    <label class="form-radio mr-3">
+      <input type="radio" name="gender">
+      <span>Male</span>
+    </label>
+
+    <label class="form-radio">
+      <input type="radio" name="gender">
+      <span>Other</span>
+    </label>
+  </div>
+
+  <!-- Country -->
+  <div class="flex flex-col">
+    <label class="mb-1" for="country">Country</label>
+    <select class="dropdown mb-3" id="country">
+      <option selected>Select a country</option>
+      <option>Perú</option>
+      <option>Chile</option>
+      <option>Bolivia</option>
+    </select>
+  </div>
+
+  <!-- Favorite languages -->
+  <p class="mb-3">Favorite languages</p>
+  <div class="flex mb-3">
+    <label class="form-check mr-3">
+      <input type="checkbox">
+      <span>Ruby</span>
+    </label>
+
+    <label class="form-check mr-3">
+      <input type="checkbox">
+      <span>JS</span>
+    </label>
+
+    <label class="form-check">
+      <input type="checkbox">
+      <span>Python</span>
+    </label>
+  </div>
+
+  <!-- Buttons -->
+  <div class="flex mt-3">
+    <button class="button button--primary mr-3">Submit</button>
+    <button class="button button--secundary ml-3">Cancel</button>
+  </div>
+</div></code>
+</pre>
+      </section>
+
+      <!-- Table -->
+      <section>
+        <p class="subtitle">Table</p>
+
+        <table class="table table-border">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Code</th>
+              <th>Phone</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Some Name</td>
+              <td>N01</td>
+              <td>+51 123456789</td>
+              <td>Active</td>
+            </tr>
+            <tr>
+              <td>Other Name</td>
+              <td>N02</td>
+              <td>+51 123456789</td>
+              <td>Active</td>
+            </tr>
+            <tr>
+              <td>One Name</td>
+              <td>N03</td>
+              <td>+51 123456789</td>
+              <td>Active</td>
+            </tr>
+            <tr>
+              <td>Last Name</td>
+              <td>N04</td>
+              <td>+51 123456789</td>
+              <td>Active</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Editor -->
+<pre class="mt-3"> 
+<code data-language="html"><table class="table table-border">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Code</th>
+      <th>Phone</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Some Name</td>
+      <td>N01</td>
+      <td>+51 123456789</td>
+      <td>Active</td>
+    </tr>
+
+    <tr>
+      <td>Other Name</td>
+      <td>N02</td>
+      <td>+51 123456789</td>
+      <td>Active</td>
+    </tr>
+
+    <tr>
+      <td>One Name</td>
+      <td>N03</td>
+      <td>+51 123456789</td>
+      <td>Active</td>
+    </tr>
+    
+    <tr>
+      <td>Last Name</td>
+      <td>N04</td>
+      <td>+51 123456789</td>
+      <td>Active</td>
+    </tr>
+  </tbody>
+</table></code>
+</pre>
+      </section>
+
+      <!-- Images Gallery -->
+      <section>
+        <p class="subtitle">Images Gallery</p>
+
+        <section class="images_gallery mb-3">
+          <div class="item item1">
+            <img src="https://picsum.photos/id/1/200/300" alt="#">
+            <div>
+              <span>View</span>
+            </div>
+          </div>
+          <div class="item item2">
+            <img src="https://picsum.photos/id/99/200/300" alt="#">
+            <div>
+              <span>View</span>
+            </div>
+          </div>
+          <div class="item item3">
+            <img src="https://picsum.photos/id/101/500/500" alt="#">
+            <div>
+              <span>View</span>
+            </div>
+          </div>
+          <div class="item item4">
+            <img src="https://picsum.photos/id/34/200/300" alt="#">
+            <div>
+              <span>View</span>
+            </div>
+          </div>
+          <div class="item item5">
+            <img src="https://picsum.photos/id/69/200/300" alt="#">
+            <div>
+              <span>View</span>
+            </div>
+          </div>
+          <div class="item item6">
+            <img src="https://picsum.photos/id/91/200/300" alt="#">
+            <div>
+              <span>View</span>
+            </div>
+          </div>
+          <div class="item item7">
+            <img src="https://picsum.photos/id/23/200/300" alt="#">
+            <div>
+              <span>View</span>
+            </div>
+          </div>
+          <div class="item item8">
+            <img src="https://picsum.photos/id/32/500/500" alt="#">
+            <div>
+              <span>View</span>
+            </div>
+          </div>
+          <div class="item item9">
+            <img src="https://picsum.photos/id/54/500/500" alt="#">
+            <div>
+              <span>View</span>
+            </div>
+          </div>
+          <div class="item item10">
+            <img src="https://picsum.photos/id/10/500/500" alt="#">
+            <div>
+              <span>View</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><section class="images_gallery mb-3">
+  <div class="item item1">
+    <img src="https://picsum.photos/id/1/200/300" alt="#">
+    <div>
+      <span>View</span>
+    </div>
+  </div>
+
+  <div class="item item2">
+    <img src="https://picsum.photos/id/99/200/300" alt="#">
+    <div>
+      <span>View</span>
+    </div>
+  </div>
+
+  <div class="item item3">
+    <img src="https://picsum.photos/id/101/500/500" alt="#">
+    <div>
+      <span>View</span>
+    </div>
+  </div>
+
+  <div class="item item4">
+    <img src="https://picsum.photos/id/34/200/300" alt="#">
+    <div>
+      <span>View</span>
+    </div>
+  </div>
+
+  <div class="item item5">
+    <img src="https://picsum.photos/id/69/200/300" alt="#">
+    <div>
+      <span>View</span>
+    </div>
+  </div>
+
+  <div class="item item6">
+    <img src="https://picsum.photos/id/91/200/300" alt="#">
+    <div>
+      <span>View</span>
+    </div>
+  </div>
+
+  <div class="item item7">
+    <img src="https://picsum.photos/id/23/200/300" alt="#">
+    <div>
+      <span>View</span>
+    </div>
+  </div>
+
+  <div class="item item8">
+    <img src="https://picsum.photos/id/32/500/500" alt="#">
+    <div>
+      <span>View</span>
+    </div>
+  </div>
+
+  <div class="item item9">
+    <img src="https://picsum.photos/id/54/500/500" alt="#">
+    <div>
+      <span>View</span>
+    </div>
+  </div>
+  
+  <div class="item item10">
+    <img src="https://picsum.photos/id/10/500/500" alt="#">
+    <div>
+      <span>View</span>
+    </div>
+  </div>
+</section></code>
+</pre>
+
+      </section>
+    </section>
+  
+  </main>
+
+  <!-- Editor js -->
+  <script src="./src/js/rainbow-custom.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+/* Tabs */
+.list__tabs > .item {
+  margin-right: 16px;
+  background-color: var(--color--light-1);
+  height: 42px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color--gray);
+  border-radius: 2px 2px 0px 0px;
+  box-shadow: inset 1px 0px 0px #888888, inset -1px 0px 0px #888888, inset 0px 1px 0px #888888;
+  cursor: pointer;
+}
+.list__tabs > .item--hover:hover {
+  color: #118AB2;
+  box-shadow: inset -1px 0px 0px #118AB2, inset 0px 1px 0px #118AB2, inset 1px 0px 0px #118AB2;
+}
+.list__tabs > .item--active {
+  color: #118AB2;
+  box-shadow: inset -1px 0px 0px #118AB2, inset 0px 1px 0px #118AB2, inset 1px 0px 0px #118AB2;
+}

@@ -1,0 +1,69 @@
+/* Update you profile */
+.update-profile {
+  max-width: 291px;
+  padding: 16px 0px 16px 16px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Images gallery */
+.images_gallery {
+  display: grid;
+  grid-template-columns: 136px 280px repeat(4, 64px);
+  grid-template-rows: repeat(4, 64px);
+  grid-gap: 8px;
+}
+
+.images_gallery > .item {
+  position: relative;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 100%;
+  height: 100%;
+}
+
+.images_gallery > .item > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.images_gallery > .item > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(96, 127, 138, 0);
+  color: transparent;
+  transition: .2s;
+}
+
+.images_gallery > .item > div:hover {
+  background-color: rgba(17, 138, 178, .6);
+  color: white;
+}
+
+.images_gallery > .item1 {
+  grid-row: span 2;
+}
+.images_gallery > .item2 {
+  grid-row: 3 / span 2;
+}
+.images_gallery > .item3 {
+  grid-row: 1 / -1;
+}
+.images_gallery > .item8 {
+  grid-column: span 4;
+  grid-row: span 2;
+}
+.images_gallery > .item9 {
+  grid-column: span 2;
+}
+.images_gallery > .item10 {
+  grid-column: span 2;
+}

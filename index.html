@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Component Library</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./src/css/style.css">
+  
+  <!-- Editor styles -->
+  <link rel="stylesheet" href="./src/css/themes/theme.css">
+</head>
+<body>
+  <header class="header">
+    <img class="header__img" src="./src/img/logo.png" alt="">
+  </header>
+  <main class="main">
+
+    <!-- Aside -->
+    <aside class="aside">
+      <a class="active" href="./index.html">
+        <span>Typography</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a href="./elements.html">
+        <span>Elements</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a href="./blocks.html">
+        <span>Blocks</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a href="./layouts.html">
+        <span>Layouts</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a href="./page1.html">
+        <span>Example 1</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+    </aside>
+
+    <!-- Typography -->
+    <section class="section">
+      <h2 class="title">Typography</h2>
+
+      <!-- Headings -->
+      <section>
+        <p class="subtitle">Headings</p>
+
+        <div class="headings__container">
+          <h1 class="h1">h1. Eat, sleep, code, and repeat!</h1>
+          <h2 class="h2">h2. Eat, sleep, code, and repeat!</h2>
+          <h3 class="h3">h3. Eat, sleep, code, and repeat!</h3>
+          <h4 class="h4">h4. Eat, sleep, code, and repeat!</h4>
+          <h5 class="h5">h5. Eat, sleep, code, and repeat!</h5>
+          <h6 class="h6">h6. Eat, sleep, code, and repeat!</h6>
+        </div>
+        
+<pre>
+  <code data-language="html"><div class="headings__container">
+  <h1 class="h1">h1. Eat, sleep, code, and repeat!</h1>
+  <h2 class="h2">h2. Eat, sleep, code, and repeat!</h2>
+  <h3 class="h3">h3. Eat, sleep, code, and repeat!</h3>
+  <h4 class="h4">h4. Eat, sleep, code, and repeat!</h4>
+  <h5 class="h5">h5. Eat, sleep, code, and repeat!</h5>
+  <h6 class="h6">h6. Eat, sleep, code, and repeat!</h6>
+</div></code>
+</pre>
+
+      </section>
+
+      <!-- Paragraph -->
+      <section>
+        <p class="subtitle">Paragraph</p>
+
+        <p class="paragraph__p">
+          The best programs are written so that computing machines can perform them quickly and so that human beings can <span class="bold">understand them clearly.</span> A programmer is ideally an essayist who works with traditional aesthetic and literary forms as well as mathematical concepts, to communicate the way that an algorithm works and to convince a reader that the results will be correct.
+        </p>
+
+<!-- Editor -->
+<pre>
+  <code data-language="html"><p></p></code>
+</pre>
+      </section>
+      
+      <!-- Quote -->
+      <section>
+        <p class="subtitle">Quote</p>
+        
+        <div class="quote__container mb-3">
+          <blockquote >
+            <p class="quote__p">
+              “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”
+            </p>
+            <p class="quote__b">- Martin Fowler</p>
+          </blockquote>
+        </div>
+
+<!-- Editor -->
+<pre>
+  <code data-language="html"><blockquote></blockquote></code>
+</pre>
+      </section>
+
+      <!-- Colors -->
+      <section>
+        <p class="subtitle">Colors</p>
+
+        <div class="colors__container">
+          <div class="colors__item">
+            <div class="circle circle--blue"></div>
+            <span>blue #118AB2</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--green"></div>
+            <span>green #06D6A0</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--yellow"></div>
+            <span>yellow #118AB2</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--red"></div>
+            <span>red #FFD166</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--midnight"></div>
+            <span>midnight #EF476F</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--light"></div>
+            <span>light #073B4C</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--white"></div>
+            <span>white #F8F9FA</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--gray"></div>
+            <span>gray #FFFFFF</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--black"></div>
+            <span>black #888888</span>
+          </div>
+        </div>
+      </section>
+      
+    </section>
+
+  </main>
+
+  <!-- Editor js -->
+  <script src="./src/js/rainbow-custom.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./src/css/style.css">
+  
+  <!-- Editor styles -->
+  <link rel="stylesheet" href="./src/css/themes/theme.css">
+</head>
+<body>
+  <header class="header">
+    <img class="header__img" src="./src/img/logo.png" alt="">
+  </header>
+  <main class="main">
+
+    <!-- Aside -->
+    <aside class="aside">
+      <a href="./index.html">
+        <span>Typography</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a href="./elements.html">
+        <span>Elements</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a href="./blocks.html">
+        <span>Blocks</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a class="active" href="./layouts.html">
+        <span>Layouts</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+      <a href="./page1.html">
+        <span>Example 1</span>
+        <img src="./src/img/icons/union-icon.png" alt="">
+      </a>
+    </aside>
+
+    <!-- Layouts -->
+    <section class="section">
+      <h2 class="title">Layouts</h2>
+      
+      <!-- Two columns with header and footer -->
+      <section>
+        <p class="subtitle">Two columns with header and footer</p>
+
+        <section class="two_columns_with_header mb-3">
+          <div class="item item1"><span>header (fixed)</span></div>
+          <div class="item item2"><span>nav (fixed)</span></div>
+          <div class="item item3"><span>main (flex)</span></div>
+          <div class="item item4"><span>footer (fixed)</span></div>
+        </section>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><section class="two_columns_with_header">
+  <div class="item item1"><span>header (fixed)</span></div>
+  <div class="item item2"><span>nav (fixed)</span></div>
+  <div class="item item3"><span>main (flex)</span></div>
+  <div class="item item4"><span>footer (fixed)</span></div>
+</section></code>
+</pre>
+
+      </section>
+
+      <!-- Three columns with header and footer -->
+      <section>
+        <p class="subtitle">Three columns with header and footer</p>
+
+        <section class="three_columns_with_header mb-3">
+          <div class="item item1"><span>header (fixed)</span></div>
+          <div class="item item2"><span>nav (fixed)</span></div>
+          <div class="item item3"><span>main (flex)</span></div>
+          <div class="item item4"><span>aside (fixed)</span></div>
+          <div class="item item5"><span>footer (fixed)</span></div>
+        </section>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><section class="three_columns_with_header">
+  <div class="item item1"><span>header (fixed)</span></div>
+  <div class="item item2"><span>nav (fixed)</span></div>
+  <div class="item item3"><span>main (flex)</span></div>
+  <div class="item item4"><span>aside (fixed)</span></div>
+  <div class="item item5"><span>footer (fixed)</span></div>
+</section></code>
+</pre>
+
+      </section>
+
+      <!-- Three columns -->
+      <section>
+        <p class="subtitle">Three columns</p>
+
+        <section class="three_columns mb-3">
+          <div class="item item1"><span>header (fixed)</span></div>
+          <div class="item item2"><span>nav (fixed)</span></div>
+          <div class="item item3"><span>main (flex)</span></div>
+          <div class="item item4"><span>aside (fixed)</span></div>
+        </section>
+
+        <!-- Editor -->
+<pre>
+<code data-language="html"><section class="three_columns">
+  <div class="item item1"><span>header (fixed)</span></div>
+  <div class="item item2"><span>nav (fixed)</span></div>
+  <div class="item item3"><span>main (flex)</span></div>
+  <div class="item item4"><span>aside (fixed)</span></div>
+</section></code>
+</pre>
+
+      </section>
+    </section>
+
+  </main>
+
+  <!-- Editor js -->
+  <script src="./src/js/rainbow-custom.min.js"></script>
+</body>
+</html>
