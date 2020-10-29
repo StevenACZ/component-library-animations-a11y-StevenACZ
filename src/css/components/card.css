@@ -33,3 +33,14 @@
 .card-body > .button {
   align-self: flex-end;
 }
+
+@media (max-width: 480px) {
+  .card-img-top {
+    height: 0;
+    transition: all 400ms ease;
+  }
+  
+  .card:hover > .card-img-top {
+    height: 200px;
+  }
+}

@@ -1,4 +1,4 @@
-.image {
+.img {
   width: 100px;
   height: 100px;
   background-color: #CCCCCC;
@@ -9,10 +9,10 @@
   color: #9d9d9d;
 }
 
-.image--circle {
+.img--circle {
   border-radius: 100%;
 }
 
-.image--shadow {
+.img--shadow {
   filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.2));
 }

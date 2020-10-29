@@ -1,5 +1,10 @@
 /* List Items */
-.list > .item {
+.list.list--vertical {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.list_item {
   font-family: 'Piazzolla', serif;
   margin-right: 16px;
   height: 40px;
@@ -9,15 +14,17 @@
   align-items: center;
   font-size: 20px;
   cursor: pointer;
+  width: auto;
+
   background-image: linear-gradient(90deg, transparent 0%, transparent 50%, var(--color--light-1) 50%);
   background-size: 225%;
   transition: all 700ms;
 }
   
-  .list > .item--hover:hover {
+  .list_item:hover {
     background-position: -90%;
   }
 
-  .list > .item--active {
+  .list_item--active {
     background-color: var(--color--light-1);
   }
