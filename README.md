@@ -10,3 +10,11 @@ Find the design [here](https://www.figma.com/file/B9OvjJrMOqD0Wy38zHE2VS/Compone
 - Use this tutorial to know [how to animate a checkbox](https://www.youtube.com/watch?v=ojWA8pdT-zY)
 
 Have fun and don't forget to ask for help when you get stuck.
+
+Project Week 2 - Day 3
+
+<p align="center">
+  <img src="https://i.ibb.co/wyXWb0L/stevenacz-github-io-component-library-animations-a11y-Steven-ACZ-elements-html.png" width="550" alt="accessibility text">
+</p>
+
+
